@@ -22,4 +22,4 @@ headers = {
 url2 = 'http://httpbin.org/headers'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
-#TASK 6 -kenneth
+
