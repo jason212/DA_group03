@@ -10,4 +10,3 @@ classNewSpider(scrapytest.Spider):
             yield{
                 'image Link':x.xpath(newsel).extract_first(),
             }
-# URL must change right? 
