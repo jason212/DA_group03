@@ -10,3 +10,4 @@ classNewSpider(scrapytest.Spider):
             yield{
                 'image Link':x.xpath(newsel).extract_first(),
             }
+# my machine giving me error 403 @kenneth you can?
