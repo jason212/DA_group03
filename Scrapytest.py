@@ -46,3 +46,8 @@ class BrickSetSpider(scrapy.Spider):
             PIECES_SELECTOR = './/dl[dt/text() = "Pieces"]/dd/a/text()'
             MINIFIGS_SELECTOR = './/dl[dt/text() = "Minifigs"]/dd[2]/a/text()'
             IMAGE_SELECTOR = 'img ::attr(src)'
+            
+            # unittest
+              
+import unittest
+class spidertest(unittest.Testcase):
